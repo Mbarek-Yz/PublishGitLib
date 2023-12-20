@@ -3,9 +3,6 @@ Pod::Spec.new do |spec|
     spec.version                  = '1.0.0'
     spec.homepage                 = 'https://github.com/Mbarek-Yz/PublishGitLib'
     spec.source                   = { :git => 'https://github.com/Mbarek-Yz/PublishGitLib.git'}
-    spec.authors                  = { "$(git config Mbarek-Yz)" => "$(git config mbarekyazen16@gmail.com)" }
-
-    spec.license                  = ''
     spec.source_files  = "PublishGitIos/**/*.swift"
     spec.resources = "PublishGitIos/**/*.xib"
     spec.summary                  = 'Some description for the Shared Module'
