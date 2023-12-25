@@ -1,10 +1,12 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'PublishGitLib'
-    spec.version                  = '1.0'
-    spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :git => 'https://github.com/Mbarek-Yz/PublishGitLib.git', :tag => '1.0.0' }   
-    spec.authors                  = ''
-    spec.license                  = { :type => 'MIT', :file => 'LICENSE' }
+    spec.version                  = '1.0.0'
+    spec.homepage                 = 'https://github.com/Mbarek-Yz/PublishGitLib'
+    spec.source                   = { :git => 'https://github.com/Mbarek-Yz/PublishGitLib.git'',:tag => '1.0.0' }
+    spec.authors		  = ''
+    spec.license		  = { :type => 'MIT', :file => 'LICENSE' }
+    spec.source_files  		  = "PublishGitIos/**/*.swift"
+    spec.resources 		  = "PublishGitIos/**/*.xib"
     spec.summary                  = 'Some description for the Shared Module'
     spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
     spec.libraries                = 'c++'
