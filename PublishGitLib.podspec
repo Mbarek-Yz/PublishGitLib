@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.version                  = '1.0.0'
     spec.homepage                 = 'https://github.com/Mbarek-Yz/PublishGitLib'
     spec.source                   = { :git => 'https://github.com/Mbarek-Yz/PublishGitLib.git',:tag => '1.0.0' }
-    spec.authors		  = 'Mbarek-Yz'
+    spec.authors		  = {'Yazan MBAREK' => 'mbarekyazen16@gmail.com'}
     spec.license		  = { :type => 'MIT', :file => 'LICENSE' }
     spec.source_files  		  = "PublishGitIos/**/*.swift"
     spec.resources 		  = "PublishGitIos/**/*.xib"
