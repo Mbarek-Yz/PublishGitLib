@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
     spec.name                     = 'PublishGitLib'
     spec.version                  = '1.0.0'
     spec.homepage                 = 'https://github.com/Mbarek-Yz/PublishGitLib'
-    spec.source                   = { :git => 'git@github.com:Mbarek-Yz/PublishGitLib.git',:tag => '1.0.0' }
+    spec.source                   = { :git => "Not Published", :tag => "Cocoapods/#{spec.name}/#{spec.version}" }
     spec.authors		  = ''
     spec.license		  = { :type => 'MIT', :file => 'LICENSE' }
     spec.source_files  		  = "PublishGitIos/**/*.swift"
